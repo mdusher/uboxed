@@ -154,7 +154,7 @@ services:
 
   # Nginx gateway
   cernboxgateway:
-    image: gitlab-registry.cern.ch/cernbox/boxedhub/cernboxgateway:v0.8
+    image: gitlab-registry.cern.ch/cernbox/boxedhub/cernboxgateway:webng
     container_name: cernboxgateway
     hostname: cernboxgateway
     domainname: demonet
